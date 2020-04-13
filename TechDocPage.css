@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+    font-family: 'Inria Sans', sans-serif;
+    font-size:1.2em;
+}
+#navbar{
+    
+    padding: 10px 0 10px 30px;
+    background: rgb(247, 247, 247);
+    position: none;
+    height: 100%;
+    
+     }
+
+.nav-link{
+    font-size:1.2em;
+   
+}
+header{
+    padding-bottom:10px;
+    font-size:1.5em;
+    font-weight: 500;
+}
+#main-doc{
+    margin: 20px 20px 40px 40px;
+}
+
+h1{
+    margin: 20px 20px;
+    text-align:center;
+}
+
+#paging1{
+
+    border: 2px solid rgb(240, 237, 237);
+    padding:20px 20px 10px 20px;   
+}
+#code1{
+    border: 2px solid rgb(237, 238, 238);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(247, 247, 247);
+}
+@media(min-width:992px){  
+   
+    #navbar{
+       margin-right: 20px;
+       padding: 10px 0 10px 0;
+       background: rgb(247, 247, 247);
+       width: 25%;
+       position: fixed;
+       border: 2px solid rgb(240, 237, 237);
+    }
+    .nav-item{
+        padding: 0 0 0 20px;
+    }
+    header{
+       
+        padding: 20px 0 10px 20px;
+    }
+    h1{
+        text-align:left;
+    }}
+
+
+
